@@ -24,10 +24,7 @@ zopen_check_results()
 
 zopen_append_to_env()
 {
-  echo "dh pwd= $PWD"
   # echo envars outside of PATH, MANPATH, LIBPATH
-  #export ZOPEN_EXTRA_LDFLAGS="\${ZOPEN_EXTRA_LDFLAGS} -L\$PWD/lib"
- # export ZOPEN_EXTRA_LIBS="\${ZOPEN_EXTRA_LIBS} -lssl -lcrypto"
 }
 
 zopen_append_to_setup()
